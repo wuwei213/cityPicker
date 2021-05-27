@@ -1,0 +1,8 @@
+<text>普通的选择城市picker</text>
+<city-picker codes="{{codes}}" class="picker_style" bind:select="placeNameSelect" name="placeNameSelect">
+	<view class="input-picker">
+		<text>{{placeName||'点击选择城市'}}</text>
+	</view>
+</city-picker>
+<view>选中的汉字数组： {{placeName}}</view>
+<view>选中的id数组： {{placeCode}}</view>
